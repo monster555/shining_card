@@ -2,6 +2,8 @@
 
 This is a sample web app built with Flutter Web, demonstrating a rotating Pokemon card with a shine effect on mouse hover. It's a simple and fun way to showcase your favorite Pokemon and add some interactivity to your website.
 
+<img src="https://github.com/monster555/shining_card/blob/main/rotating shining card demo.gif" alt="Pokemon card rotation demo">
+
 ## Getting Started
 
 To get started with the project, you need to have the Flutter SDK installed on your machine. You can follow the instructions on the Flutter website to download and install Flutter.
