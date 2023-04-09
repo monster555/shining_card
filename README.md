@@ -12,8 +12,16 @@ To run the project, follow these steps:
 
 Clone the repository to your local machine.
 Open a terminal window and navigate to the project directory.
-Run flutter pub get to install the app dependencies.
-Run flutter run -d chrome to launch the app on your web browser.
+Run 
+```bash
+flutter pub get
+```
+to install the app dependencies.
+Run
+```bash
+flutter run -d chrome
+```
+to launch the app on your web browser.
 
 That's it! You can now see the rotating Pokemon card in action and modify the code to your liking.
 
