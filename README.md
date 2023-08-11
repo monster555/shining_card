@@ -1,4 +1,4 @@
-# Rotating Shining App demo web app
+# Rotating Shining Card demo web app
 
 This is a sample web app built with Flutter Web, demonstrating a rotating Pokemon card with a shine effect on mouse hover. It's a simple and fun way to showcase your favorite Pokemon and add some interactivity to your website.
 
