@@ -5,15 +5,15 @@ import 'package:flutter/material.dart';
 class RotatingShiningCard extends StatefulWidget {
   /// A card widget that rotates and shines on mouse hover.
   ///
-  /// [imageUrl] is the URL of the image to display on the card.
-  final String imageUrl;
+  /// [image] is the path to the image of the card.
+  final String image;
 
   /// [width] and [height] are the dimensions of the card.
   final double width, height;
 
   const RotatingShiningCard({
     super.key,
-    required this.imageUrl,
+    required this.image,
     required this.width,
     required this.height,
   });
@@ -72,8 +72,8 @@ class RotatingShiningCardState extends State<RotatingShiningCard> {
           child: Stack(
             children: [
               // Display the Pokemon card image
-              Image.network(
-                widget.imageUrl,
+              Image.asset(
+                widget.image,
                 width: widget.width,
                 height: widget.height,
               ),
